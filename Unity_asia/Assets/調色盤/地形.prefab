@@ -40,7 +40,7 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4530340375728168801}
   m_Enabled: 1
-  m_CellSize: {x: 0.32, y: 0.32, z: 0}
+  m_CellSize: {x: 1, y: 1, z: 0}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
@@ -268,8 +268,8 @@ Tilemap:
   - first: {x: -2, y: 0, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -288,8 +288,8 @@ Tilemap:
   - first: {x: 0, y: 0, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -368,11 +368,11 @@ Tilemap:
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: f3232ffbb992cfb41a11cb71d3a0cb75, type: 2}
+    m_Data: {fileID: 11400000, guid: c05ed802fcef9a544a0ddc50700ee6fe, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 61baf9f0f7a640d48af23ca5ca219e29, type: 2}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: c05ed802fcef9a544a0ddc50700ee6fe, type: 2}
+    m_Data: {fileID: 11400000, guid: f3232ffbb992cfb41a11cb71d3a0cb75, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: d2e6388a7d57f1a4e9507a67ac32eedf, type: 2}
   - m_RefCount: 1
@@ -425,11 +425,11 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: e947c81a444af2c4082f68a889d427da, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 1
-    m_Data: {fileID: 8652677587666043219, guid: bb35af95735851440927571ef230221b, type: 3}
+    m_Data: {fileID: 3994209854681936717, guid: bb35af95735851440927571ef230221b, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -7190719572971877601, guid: bb35af95735851440927571ef230221b, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 3994209854681936717, guid: bb35af95735851440927571ef230221b, type: 3}
+    m_Data: {fileID: 8652677587666043219, guid: bb35af95735851440927571ef230221b, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -2094381130127968046, guid: bb35af95735851440927571ef230221b, type: 3}
   - m_RefCount: 1
@@ -574,7 +574,7 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
---- !u!114 &1818093071703131354
+--- !u!114 &1184436133255184382
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
