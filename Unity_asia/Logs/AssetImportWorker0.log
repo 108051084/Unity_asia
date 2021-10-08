@@ -520,3 +520,4 @@ Received Import Request.
 Start importing Assets/場景/開始畫面.unity using Guid(484414316a3cfb54fae2796dfa497799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8deb3dd24ddefc2c2b8bbad57d3292') in 0.007760 seconds 
   Import took 0.011227 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
